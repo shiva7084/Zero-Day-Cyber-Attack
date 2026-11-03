@@ -75,24 +75,8 @@ The code supports all scenarios reported in the paper:
 | Scalability (5–80 agents) | Scaling study                                    |
 | Disturbance               | Agent failures + stochastic noise                |
 
-## Citation
-
-If you use this code or data, please cite:
-
-```bibtex
-@article{krishna2026dac,
-  title   = {Decentralized Actor-Critic Architectures for Resource Allocation in Multi-Agent Cyber-Physical Systems},
-  author  = {Krishna, Mallu Shiva Rama and Saritha, Mulkala and Dasari, Kiran and Anuradha, K.},
-  journal = {Inteligencia Artificial},
-  year    = {2026}
-}
-```
-
-## License
-
-This project is released under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Contact
 
-Corresponding author: Kiran Dasari (kiran.dasari@manipal.edu)  
+
 For code-related questions: Mallu Shiva Rama Krishna

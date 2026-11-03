@@ -1,0 +1,29 @@
+# Medium Network configuration (default)
+n_agents: 20
+scenario: "dynamic_workload"
+max_steps: 200
+total_episodes: 3000
+eval_episodes: 100
+
+# Network
+actor_lr: 3.0e-4
+critic_lr: 1.0e-3
+gamma: 0.99
+clip_eps: 0.2
+entropy_coef: 0.01
+gae_lambda: 0.95
+
+# Primal-dual
+n_resources: 5
+dual_lr: 1.0e-3
+
+# Consensus
+consensus_alpha: 0.1
+consensus_max_iters: 30
+
+# CBF
+cbf_alpha: 0.5
+
+# Logging
+log_dir: "results/medium_network"
+seed: 42

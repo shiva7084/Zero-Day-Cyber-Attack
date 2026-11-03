@@ -1,0 +1,21 @@
+# Scalability experiment with 80 agents
+n_agents: 80
+scenario: "scalability"
+max_steps: 150
+total_episodes: 4000
+eval_episodes: 50
+
+actor_lr: 3.0e-4
+critic_lr: 1.0e-3
+gamma: 0.99
+clip_eps: 0.2
+entropy_coef: 0.01
+
+n_resources: 5
+dual_lr: 5.0e-4
+consensus_alpha: 0.08
+consensus_max_iters: 40
+cbf_alpha: 0.5
+
+log_dir: "results/scalability_80"
+seed: 42
